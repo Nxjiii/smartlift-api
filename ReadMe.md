@@ -12,8 +12,6 @@ Feel free to connect with me! [LinkedIn](www.linkedin.com/in/najib-sheikh-mohame
 
 ## Roadmap
 
-## Roadmap
-
 | Task                             | Sprint    | Start Date         | End Date           | Tags                   |
 | -------------------------------- | --------- | ------------------ | ------------------ | ---------------------- |
 | Idea Validation & Research       | -         | June 1, 2025       | June 30, 2025      | Research, Planning     |
