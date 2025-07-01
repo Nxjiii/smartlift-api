@@ -1,27 +1,94 @@
-# SmartLift
+# 💪 SmartLift — AI Gym Split Generator (MVP)
 
-🚧 **Work in Progress** 🚧
+🚧 MVP in Progress — July 2025 🚧
 
-This project is currently in the **planning and design phase**.  
-I am finalising the tech stack, designing the architecture, and validating the idea before development begins.
+SmartLift is an AI-powered workout split planner that helps gym-goers avoid muscle group clashes and optimize their weekly routines — no thinking required.
 
-Stay tuned for upcoming updates with implementation progress, features, and demos! I will be posting all about the
-development process on LinkedIn, using #BuildingInPublic, to hold myself accountable to the high standards of development I intend to set,
-and receive real feedback and interactions on it.
-Feel free to connect with me! [LinkedIn](www.linkedin.com/in/najib-sheikh-mohamed)
+This is a fast-moving solo founder project, focused on delivering value in **weeks, not months**.
 
-## Roadmap
+---
 
-| Task                             | Sprint    | Start Date         | End Date           | Tags                   |
-| -------------------------------- | --------- | ------------------ | ------------------ | ---------------------- |
-| Idea Validation & Research       | -         | June 1, 2025       | June 30, 2025      | Research, Planning     |
-| Project Setup & CI/CD Pipelines  | Sprint 1  | July 1, 2025       | July 14, 2025      | DevOps, Setup          |
-| Core Architecture Design         | Sprint 2  | July 15, 2025      | July 28, 2025      | Planning, Backend      |
-| Authentication & User Onboarding | Sprint 3  | July 29, 2025      | August 11, 2025    | Auth, UX               |
-| API Development & Integration    | Sprint 4  | August 12, 2025    | August 25, 2025    | Backend, Integration   |
-| Frontend MVP & UI Components     | Sprint 5  | August 26, 2025    | September 8, 2025  | UI/UX, Frontend        |
-| Automated Testing & QA Setup     | Sprint 6  | September 9, 2025  | September 22, 2025 | Testing, QA            |
-| Continuous Deployment Pipeline   | Sprint 7  | September 23, 2025 | October 6, 2025    | DevOps, CI/CD          |
-| Feature Expansion & Refinement   | Sprint 8  | October 7, 2025    | October 20, 2025   | Features, Optimization |
-| Beta Release & User Feedback     | Sprint 9  | October 21, 2025   | November 3, 2025   | Release, Feedback      |
-| Final Polishing & Public Launch  | Sprint 10 | November 4, 2025   | November 17, 2025  | Launch, Marketing      |
+## 🎯 Problem
+
+Most gym apps are either:
+
+- Overly generic (cookie-cutter routines)
+- Overly complex (track everything, do nothing)
+- Don’t prevent poor planning (e.g. back-to-back push days)
+
+**SmartLift solves that** by automatically generating a weekly split based on:
+
+- Your goals (hypertrophy, strength, weight loss)
+- Days available
+- Muscle group recovery time
+- Equipment access
+
+---
+
+## ⚡ Current Status: MVP Build Phase
+
+Goal: Launch a working MVP by **July 31, 2025**
+
+---
+
+## 🔥 MVP Scope (By July 31, 2025)
+
+- [ ] Simple onboarding (goals, days/week, equipment)
+- [ ] Smart split generation logic
+- [ ] Editable workouts (swap exercises)
+- [ ] PDF/Share export
+- [ ] Stripe payments
+- [ ] Live landing page
+- [ ] 5–10 beta users w/ feedback
+
+---
+
+## 🛠 Tech Stack
+
+| Area       | Tech                                        |
+| ---------- | ------------------------------------------- |
+| Frontend   | React Native (Expo)                         |
+| Backend    | Python (FastAPI) or Supabase Edge Functions |
+| Auth       | Supabase Auth                               |
+| AI Logic   | OpenAI GPT-4 API                            |
+| DB         | Supabase Postgres                           |
+| Payments   | Stripe                                      |
+| Deployment | Railway / Supabase                          |
+
+---
+
+## 🗺️ Lean Roadmap
+
+| Phase      | Focus                            | Deadline |
+| ---------- | -------------------------------- | -------- |
+| ✅ Phase 0 | Idea validation + niche research | Jul 1    |
+| 🚧 Phase 1 | MVP build begins                 | Jul 5    |
+| 🔜 Phase 2 | Landing page + waitlist          | Jul 7    |
+| 🔜 Phase 3 | Core split logic + Stripe        | Jul 17   |
+| 🔜 Phase 4 | MVP testing with users           | Jul 24   |
+| 🔜 Phase 5 | Public soft launch               | Jul 31   |
+
+---
+
+## 💰 Pricing
+
+| Plan         | Price        | Features                                       |
+| ------------ | ------------ | ---------------------------------------------- |
+| **Free**     | $0           | 1 plan/week, no export                         |
+| **Pro**      | $14.99/month | Unlimited plans, PDF export, editable workouts |
+| **Lifetime** | $49 one-time | Everything in Pro (limited time only)          |
+
+---
+
+## 📢 Building in Public
+
+Follow me on [LinkedIn](www.linkedin.com/in/najib-sheikh-mohamed) to see real updates, code drops, challenges, and wins.  
+Posting using `#BuildingInPublic` every week.
+
+---
+
+## 🤝 Want to Help?
+
+- Know someone who struggles with gym planning?
+- Want early access or to beta test?
+- DM me or email `Najibasheikh22@gmail.com`
