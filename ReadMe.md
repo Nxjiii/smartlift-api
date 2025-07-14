@@ -1,94 +1,80 @@
-# 💪 SmartLift — AI Gym Split Generator (MVP)
+💪 SmartLift — AI Gym Split Generator (MVP)
+🚧 MVP in Progress — July–August 2025 🚧
 
-🚧 MVP in Progress — July 2025 🚧
+SmartLift is an AI-powered workout split planner that helps gym-goers avoid muscle group clashes and optimize their weekly routines — no guesswork, just smart splits.
 
-SmartLift is an AI-powered workout split planner that helps gym-goers avoid muscle group clashes and optimize their weekly routines — no thinking required.
+Built solo and fast — delivering value in weeks, not months.
 
-This is a fast-moving solo founder project, focused on delivering value in **weeks, not months**.
+🎯 Problem
+Most gym apps either:
 
----
+Offer generic cookie-cutter routines
 
-## 🎯 Problem
+Overwhelm with complex tracking and options
 
-Most gym apps are either:
+Fail to prevent poor planning (like consecutive push days)
 
-- Overly generic (cookie-cutter routines)
-- Overly complex (track everything, do nothing)
-- Don’t prevent poor planning (e.g. back-to-back push days)
+SmartLift solves this by generating tailored weekly splits based on:
 
-**SmartLift solves that** by automatically generating a weekly split based on:
+Your goals (hypertrophy, strength, fat loss)
 
-- Your goals (hypertrophy, strength, weight loss)
-- Days available
-- Muscle group recovery time
-- Equipment access
+Available days
 
----
+Muscle recovery time
 
-## ⚡ Current Status: MVP Build Phase
+Equipment access
 
-Goal: Launch a working MVP by **July 31, 2025**
+⚡ Current Status
+Started CI/CD and basic backend setup on July 14, 2025
 
----
+MVP target launch by August 31, 2025
 
-## 🔥 MVP Scope (By August 31, 2025)
+🔥 MVP Scope (Deadline: August 31, 2025)
+Simple onboarding (goals, days/week, equipment)
 
-- [ ] Simple onboarding (goals, days/week, equipment)
-- [ ] Smart split generation logic
-- [ ] Editable workouts (swap exercises)
-- [ ] PDF/Share export
-- [ ] Stripe payments
-- [ ] Live landing page
-- [ ] 5–10 beta users w/ feedback
+Core smart split generation logic
 
----
+Editable workouts (swap exercises)
 
-## 🛠 Tech Stack
+Export to PDF/share
 
-| Area       | Tech                                        |
-| ---------- | ------------------------------------------- |
-| Frontend   | React Native (Expo)                         |
-| Backend    | Python (FastAPI) or Supabase Edge Functions |
-| Auth       | Supabase Auth                               |
-| AI Logic   | OpenAI GPT-4 API                            |
-| DB         | Supabase Postgres                           |
-| Payments   | Stripe                                      |
-| Deployment | Railway / Supabase                          |
+Stripe payments integration
 
----
+Live landing page with waitlist
 
-## 🗺️ Lean Roadmap
+Beta testing with 5–10 users for feedback
 
-| Phase      | Focus                            | Deadline |
-| ---------- | -------------------------------- | -------- |
-| ✅ Phase 0 | Idea validation + niche research | Jul 1    |
-| 🚧 Phase 1 | MVP build begins                 | Jul 5    |
-| 🔜 Phase 2 | Landing page + waitlist          | Jul 7    |
-| 🔜 Phase 3 | Core split logic + Stripe        | Jul 17   |
-| 🔜 Phase 4 | MVP testing with users           | Jul 24   |
-| 🔜 Phase 5 | Public soft launch               | Jul 31   |
+🛠 Tech Stack
+Area Tech
+Frontend React Native (Expo)
+Backend Python (FastAPI)
+Auth Supabase Auth
+AI Logic OpenAI GPT-4 API
+Database Supabase Postgres
+Payments Stripe
+Deployment Render /(backend), Vercel (frontend)
 
----
+🗺️ Lean Roadmap
+Phase Focus Deadline
+🚀 Phase 1 Backend MVP API + CI/CD setup Jul 14–Jul 27
+🚀 Phase 2 Core split logic + onboarding API Jul 28–Aug 10
+🚀 Phase 3 Frontend MVP + API integration Aug 11–Aug 20
+🚀 Phase 4 Payments + export + landing page Aug 21–Aug 28
+🚀 Phase 5 Beta launch + feedback collection Aug 29–Aug 31
 
-## 💰 Pricing
+💰 Pricing (Post-MVP)
+Plan Price Features
+Free $0 1 plan/week, no export
+Pro $14.99/month Unlimited plans, PDF export, editable workouts
+Lifetime $49 one-time All Pro features (limited time offer)
 
-| Plan         | Price        | Features                                       |
-| ------------ | ------------ | ---------------------------------------------- |
-| **Free**     | $0           | 1 plan/week, no export                         |
-| **Pro**      | $14.99/month | Unlimited plans, PDF export, editable workouts |
-| **Lifetime** | $49 one-time | Everything in Pro (limited time only)          |
+📢 Building in Public
+Follow me on LinkedIn for real-time updates, code drops, and wins.
+Hashtag: #BuildingInPublic
 
----
+🤝 Want to Help?
+Know gym-goers stuck with bad splits?
 
-## 📢 Building in Public
+Interested in beta testing?
 
-Follow me on [LinkedIn](www.linkedin.com/in/najib-sheikh-mohamed) to see real updates, code drops, challenges, and wins.  
-Posting using `#BuildingInPublic` every week.
-
----
-
-## 🤝 Want to Help?
-
-- Know someone who struggles with gym planning?
-- Want early access or to beta test?
-- DM me or email `Najibasheikh22@gmail.com`
+Reach out: Najibasheikh22@gmail.com
