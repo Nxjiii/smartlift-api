@@ -31,7 +31,7 @@ Goal: Launch a working MVP by **July 31, 2025**
 
 ---
 
-## 🔥 MVP Scope (By July 31, 2025)
+## 🔥 MVP Scope (By August 31, 2025)
 
 - [ ] Simple onboarding (goals, days/week, equipment)
 - [ ] Smart split generation logic
